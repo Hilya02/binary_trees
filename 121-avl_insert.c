@@ -8,7 +8,7 @@
  * @nval: insertion value of the AVL.
  * Return: pointer to the new root after insertion otherwise NULL
  */
-avl_t *avl_insert(avl_t **tree, int value), avl_t *parent, avl_t **new, int nval)
+avl_t *avl_insert(avl_t **tree, int value, avl_t *parent, avl_t **new, int nval)
 {
 	int bval;
 
